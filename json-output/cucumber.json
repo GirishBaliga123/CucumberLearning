@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM outline contacts scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-outline-contacts-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42649661519,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Login page",
+            "match": {
+              "location": "ContactsStepDefinition.user_is_already_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16046775,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page Free CRM",
+            "match": {
+              "location": "ContactsStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.CharSequence;\r\n\tat stepDefinition.ContactsStepDefinition.user_enters_username_and_password(ContactsStepDefinition.java:43)\r\n\tat ✽.user enters username and password(C:/SundayFW/BDDAutomation/src/main/java/feature/contacts.feature:7)\r\n",
+              "duration": 38447283,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "ContactsStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "GirishBaliga",
+                  "test@123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14908,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicking on login button",
+            "match": {
+              "location": "ContactsStepDefinition.user_clicking_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8738,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user to moves Home page",
+            "match": {
+              "location": "ContactsStepDefinition.user_to_moves_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8225,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "moves to new contacts page",
+            "match": {
+              "location": "ContactsStepDefinition.create_contacts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user enters firstname and lastname and position",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "position"
+                ]
+              },
+              {
+                "cells": [
+                  "che",
+                  "chong",
+                  "google"
+                ]
+              },
+              {
+                "cells": [
+                  "ching",
+                  "chong",
+                  "yahoo"
+                ]
+              },
+              {
+                "cells": [
+                  "khong",
+                  "phoo",
+                  "ebay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8225,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user closing the browser",
+            "match": {
+              "location": "ContactsStepDefinition.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM create contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "C:/SundayFW/BDDAutomation/src/main/java/feature/contacts.feature",
+    "tags": []
+  }
+]

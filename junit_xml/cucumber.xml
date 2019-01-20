@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.710421">
+<testcase classname="Free CRM create contacts" name="Free CRM outline contacts scenario" time="42.710421">
+<failure message="java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.CharSequence;&#13;&#10;&#9;at stepDefinition.ContactsStepDefinition.user_enters_username_and_password(ContactsStepDefinition.java:43)&#13;&#10;&#9;at ✽.user enters username and password(C:/SundayFW/BDDAutomation/src/main/java/feature/contacts.feature:7)&#13;&#10;"><![CDATA[Given user is on Login page.................................................passed
+When title of login page Free CRM...........................................passed
+Then user enters username and password......................................failed
+Then user clicking on login button..........................................skipped
+Then user to moves Home page................................................skipped
+Then moves to new contacts page.............................................skipped
+Then user enters firstname and lastname and position........................undefined
+Then user closing the browser...............................................skipped
+
+StackTrace:
+java.lang.ClassCastException: java.lang.String cannot be cast to [Ljava.lang.CharSequence;
+	at stepDefinition.ContactsStepDefinition.user_enters_username_and_password(ContactsStepDefinition.java:43)
+	at ✽.user enters username and password(C:/SundayFW/BDDAutomation/src/main/java/feature/contacts.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
